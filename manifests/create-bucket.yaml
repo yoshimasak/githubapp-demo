@@ -3,7 +3,7 @@ kind: StorageBucket
 metadata:
   annotations:
     cnrm.cloud.google.com/force-destroy: "false"
-  name: gcs-tokyo
+  name: yoshimasak-tokyogcs
   namespace: config-control
 spec:
   location: asia-northeast1
