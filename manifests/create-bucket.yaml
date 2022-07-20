@@ -1,0 +1,9 @@
+apiVersion: storage.cnrm.cloud.google.com/v1beta1
+kind: StorageBucket
+metadata:
+  annotations:
+    cnrm.cloud.google.com/force-destroy: "false"
+  name: yoshimasak-tokyogcs
+  namespace: config-control
+spec:
+  location: asia-northeast1
